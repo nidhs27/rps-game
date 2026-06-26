@@ -11,7 +11,7 @@ function play(user) {
     let resultText = document.getElementById("result");
 
     userText.style.color = "black";
-    compText.style.color = "black";
+    compText.style.color = "pink";
 
     if (user === comp) {
         resultText.innerText = "Result: Draw";
